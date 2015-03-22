@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+            android:orientation="horizontal">
+            
+            <ImageButton 
+                android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image1"
+                android:scaleType="fitXY"
+                android:id="@+id/image1"/>
+            <ImageButton 
+                android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image2"
+                android:scaleType="fitXY"
+                android:id="@+id/image2"/>
+            
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+            android:orientation="horizontal">
+            
+            <ImageButton 
+                android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image3"
+                android:scaleType="fitXY"
+                android:id="@+id/image3"/>
+            <ImageButton 
+                android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/image4"
+                android:scaleType="fitXY"
+                android:id="@+id/image4"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+    
+</RelativeLayout>
+<!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/layout/video_call_main.xml -->

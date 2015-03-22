@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Aaron\Documents\Develop\Android\VideoCallVoIP\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="27c24d26e4c5d57976e6926367985548678e913c">
+        <dex dex="C:\Users\Aaron\Documents\Develop\Android\VideoCallVoIP\build\intermediates\pre-dexed\debug\android-support-v4-18687aa47fa57f58c38c0b04304157b1341fb282.jar" />
+    </item>
+    <item
+        jar="C:\Users\Aaron\Documents\Develop\Android\VideoCallVoIP\libs\gcm.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\Aaron\Documents\Develop\Android\VideoCallVoIP\build\intermediates\pre-dexed\debug\gcm-90b05106a33797979791a75aef4a04dc36379ff8.jar" />
+    </item>
+
+</items>

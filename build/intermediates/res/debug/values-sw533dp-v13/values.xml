@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values-sw533dp/non_localizable_strings.xml -->
+    <eat-comment/>
+    <bool name="isTablet">true</bool>
+</resources>

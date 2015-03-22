@@ -1,0 +1,1 @@
+/Users/macbookair/linphone-android/submodules/externals/ffmpeg/Makefile

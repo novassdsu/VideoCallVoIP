@@ -1,0 +1,283 @@
+# /Users/macbookair/linphone-android/submodules/externals/libvpx/configure --target=x86-android-gcc --sdk-path=/Users/macbookair/android-ndk --disable-vp9 --disable-examples --disable-unit-tests --disable-postproc --enable-error-concealment --enable-debug
+Configuring selected codecs
+  enabling vp8_encoder
+  enabling vp8_decoder
+Configuring for target 'x86-android-gcc'
+  enabling x86
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#ifndef __ILP32__
+    2	#error "not x32"
+    3	#endif
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+-E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/linphone-android/submodules/externals/libvpx/build/make/configure.sh: line 285: -E: command not found
+  enabling realtime_only
+  enabling runtime_cpu_detect
+  enabling mmx
+  enabling sse
+  enabling sse2
+  enabling sse3
+  enabling ssse3
+check_cflags -msse4
+check_cc -msse4
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -msse4 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+  enabling sse4_1
+check_cflags -mavx
+check_cc -mavx
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -mavx -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+  enabling avx
+check_cflags -mavx2
+check_cc -mavx2
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -mavx2 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+cc1: error: unrecognized command line option '-mavx2'
+  using yasm
+check_cxxflags -g
+check_cxx -Werror -g
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -Werror -g -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -g
+check_cc -g
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+add_ldflags -g
+check_cxxflags -O3
+check_cxx -Werror -O3
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -Werror -O3 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -O3
+check_cc -O3
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+  enabling use_x86inc
+check_cc
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	    unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cc
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	    static inline function() {}
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cc
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	    static __attribute__((always_inline)) function() {}
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wall
+check_cxx -Werror -Wall
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Werror -Wall -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wall
+check_cc -Wall
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wdeclaration-after-statement
+check_cxx -Werror -Wdeclaration-after-statement
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Werror -Wdeclaration-after-statement -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+cc1plus: error: command line option '-Wdeclaration-after-statement' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+
+check_cflags -Wdeclaration-after-statement
+check_cc -Wdeclaration-after-statement
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wdisabled-optimization
+check_cxx -Werror -Wdisabled-optimization
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Werror -Wdisabled-optimization -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wdisabled-optimization
+check_cc -Wdisabled-optimization
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wpointer-arith
+check_cxx -Werror -Wpointer-arith
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Werror -Wpointer-arith -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wpointer-arith
+check_cc -Wpointer-arith
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wtype-limits
+check_cxx -Werror -Wtype-limits
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wtype-limits
+check_cc -Wtype-limits
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wcast-qual
+check_cxx -Werror -Wcast-qual
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wcast-qual
+check_cc -Wcast-qual
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wvla
+check_cxx -Werror -Wvla
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wvla
+check_cc -Wvla
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wimplicit-function-declaration
+check_cxx -Werror -Wimplicit-function-declaration
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+cc1plus: error: command line option '-Wimplicit-function-declaration' is valid for C/ObjC but not for C++ [-Werror]
+cc1plus: all warnings being treated as errors
+
+check_cflags -Wimplicit-function-declaration
+check_cc -Wimplicit-function-declaration
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wuninitialized
+check_cxx -Werror -Wuninitialized
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wuninitialized -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wuninitialized
+check_cc -Wuninitialized
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wunused-variable
+check_cxx -Werror -Wunused-variable
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Werror -Wunused-variable -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wunused-variable
+check_cc -Wunused-variable
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wunused-but-set-variable
+check_cxx -Werror -Wunused-but-set-variable
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Wunused-variable -Werror -Wunused-but-set-variable -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wunused-but-set-variable
+check_cc -Wunused-but-set-variable
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_cxxflags -Wno-unused-function
+check_cxx -Werror -Wno-unused-function
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-g++ --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Werror -Wno-unused-function -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.cc
+check_cflags -Wno-unused-function
+check_cc -Wno-unused-function
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_header stdio.h
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "stdio.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_ld
+check_cc
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	int main(void) {return 0;}
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.x /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o
+check_header stdint.h
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "stdint.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_header pthread.h
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "pthread.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_header sys/mman.h
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "sys/mman.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_header unistd.h
+check_cpp
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "unistd.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+check_header vpx/vpx_integer.h -I/Users/macbookair/linphone-android/submodules/externals/libvpx
+check_cpp -I/Users/macbookair/linphone-android/submodules/externals/libvpx
+BEGIN /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+    1	#include "vpx/vpx_integer.h"
+    2	int x;
+END /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c
+/Users/macbookair/android-ndk/toolchains/x86-4.6/prebuilt/darwin-x86_64/bin/i686-linux-android-gcc --sysroot=/Users/macbookair/android-ndk/platforms/android-19/arch-x86 -m32 -g -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -I/Users/macbookair/linphone-android/submodules/externals/libvpx -E -o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.o /var/folders/xx/61gbydk128j313wc8nmqhr3w0000gn/T//vpx-conf-43676-6513.c

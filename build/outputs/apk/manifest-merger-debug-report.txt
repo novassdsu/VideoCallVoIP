@@ -1,0 +1,391 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:7
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:7
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	android:installLocation
+		ADDED from AndroidManifest.xml:4:34
+uses-sdk
+ADDED from AndroidManifest.xml:5:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:5:41
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:5:15
+permission#org.linphone.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:8:5
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:8:68
+	android:name
+		ADDED from AndroidManifest.xml:8:17
+uses-permission#org.linphone.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:9:2
+	android:name
+		ADDED from AndroidManifest.xml:9:19
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:10:2
+	android:name
+		ADDED from AndroidManifest.xml:10:19
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:12:2
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:13:2
+	android:name
+		ADDED from AndroidManifest.xml:13:19
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:14:2
+	android:name
+		ADDED from AndroidManifest.xml:14:19
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from AndroidManifest.xml:15:2
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:16:2
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:17:2
+	android:name
+		ADDED from AndroidManifest.xml:17:19
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from AndroidManifest.xml:18:2
+	android:name
+		ADDED from AndroidManifest.xml:18:19
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:19:2
+	android:name
+		ADDED from AndroidManifest.xml:19:19
+uses-feature#android.hardware.telephony
+ADDED from AndroidManifest.xml:21:2
+	android:required
+		ADDED from AndroidManifest.xml:21:60
+	android:name
+		ADDED from AndroidManifest.xml:21:18
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:22:2
+	android:name
+		ADDED from AndroidManifest.xml:22:19
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:23:2
+	android:name
+		ADDED from AndroidManifest.xml:23:19
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:24:2
+	android:name
+		ADDED from AndroidManifest.xml:24:19
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:26:2
+	android:required
+		ADDED from AndroidManifest.xml:26:57
+	android:name
+		ADDED from AndroidManifest.xml:26:18
+uses-permission#android.permission.READ_LOGS
+ADDED from AndroidManifest.xml:27:2
+	android:name
+		ADDED from AndroidManifest.xml:27:19
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:28:2
+	android:name
+		ADDED from AndroidManifest.xml:28:19
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:30:2
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from AndroidManifest.xml:32:2
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+uses-permission#android.permission.BLUETOOTH
+ADDED from AndroidManifest.xml:34:2
+	android:name
+		ADDED from AndroidManifest.xml:34:19
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from AndroidManifest.xml:35:2
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:37:2
+	android:name
+		ADDED from AndroidManifest.xml:37:19
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:38:2
+	android:name
+		ADDED from AndroidManifest.xml:38:19
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from AndroidManifest.xml:39:2
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+supports-screens
+ADDED from AndroidManifest.xml:41:2
+	android:largeScreens
+		ADDED from AndroidManifest.xml:41:77
+	android:smallScreens
+		ADDED from AndroidManifest.xml:41:20
+	android:normalScreens
+		ADDED from AndroidManifest.xml:41:48
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:41:105
+	android:anyDensity
+		ADDED from AndroidManifest.xml:41:134
+application
+ADDED from AndroidManifest.xml:43:5
+	android:label
+		ADDED from AndroidManifest.xml:43:18
+	android:allowBackup
+		ADDED from AndroidManifest.xml:43:121
+	android:icon
+		ADDED from AndroidManifest.xml:43:51
+	android:largeHeap
+		ADDED from AndroidManifest.xml:43:96
+activity#org.linphone.LinphoneLauncherActivity
+ADDED from AndroidManifest.xml:45:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:48:7
+	android:label
+		ADDED from AndroidManifest.xml:46:7
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:47:7
+	android:configChanges
+		ADDED from AndroidManifest.xml:49:13
+	android:theme
+		ADDED from AndroidManifest.xml:50:7
+	android:name
+		ADDED from AndroidManifest.xml:45:13
+intent-filter#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:51:7
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:52:11
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+intent-filter#android.intent.action.CALL+android.intent.action.CALL_PRIVILEGED+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:55:13
+action#android.intent.action.CALL
+ADDED from AndroidManifest.xml:56:17
+	android:name
+		ADDED from AndroidManifest.xml:56:25
+action#android.intent.action.CALL_PRIVILEGED
+ADDED from AndroidManifest.xml:57:17
+	android:name
+		ADDED from AndroidManifest.xml:57:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:58:17
+	android:name
+		ADDED from AndroidManifest.xml:58:27
+data
+ADDED from AndroidManifest.xml:59:17
+	android:scheme
+		ADDED from AndroidManifest.xml:59:23
+intent-filter#android.intent.action.SENDTO+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:63:13
+action#android.intent.action.SENDTO
+ADDED from AndroidManifest.xml:64:17
+	android:name
+		ADDED from AndroidManifest.xml:64:25
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:70:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:72:11
+	android:name
+		ADDED from AndroidManifest.xml:72:19
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:73:11
+	android:name
+		ADDED from AndroidManifest.xml:73:21
+activity#org.linphone.VideoCallMainActivity
+ADDED from AndroidManifest.xml:78:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:80:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:82:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:81:13
+	android:theme
+		ADDED from AndroidManifest.xml:79:7
+	android:name
+		ADDED from AndroidManifest.xml:78:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:83:13
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:85:11
+	android:name
+		ADDED from AndroidManifest.xml:85:21
+activity#org.linphone.LinphoneActivity
+ADDED from AndroidManifest.xml:90:3
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:92:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:93:13
+	android:theme
+		ADDED from AndroidManifest.xml:91:7
+	android:name
+		ADDED from AndroidManifest.xml:90:13
+activity#org.linphone.IncomingCallActivity
+ADDED from AndroidManifest.xml:100:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:104:13
+	android:launchMode
+		ADDED from AndroidManifest.xml:103:4
+	android:noHistory
+		ADDED from AndroidManifest.xml:102:13
+	android:theme
+		ADDED from AndroidManifest.xml:101:7
+	android:name
+		ADDED from AndroidManifest.xml:100:19
+activity#org.linphone.InCallActivity
+ADDED from AndroidManifest.xml:110:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:113:12
+	android:launchMode
+		ADDED from AndroidManifest.xml:115:12
+	android:noHistory
+		ADDED from AndroidManifest.xml:112:12
+	android:configChanges
+		ADDED from AndroidManifest.xml:114:12
+	android:theme
+		ADDED from AndroidManifest.xml:111:6
+	android:name
+		ADDED from AndroidManifest.xml:110:19
+activity#org.linphone.ChatActivity
+ADDED from AndroidManifest.xml:128:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:131:13
+	android:windowSoftInputMode
+		ADDED from AndroidManifest.xml:130:13
+	android:theme
+		ADDED from AndroidManifest.xml:129:13
+	android:name
+		ADDED from AndroidManifest.xml:128:19
+activity#org.linphone.setup.SetupActivity
+ADDED from AndroidManifest.xml:137:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:139:13
+	android:theme
+		ADDED from AndroidManifest.xml:138:7
+	android:name
+		ADDED from AndroidManifest.xml:137:19
+activity#org.linphone.setup.RemoteProvisioningLoginActivity
+ADDED from AndroidManifest.xml:145:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:147:13
+	android:theme
+		ADDED from AndroidManifest.xml:146:7
+	android:name
+		ADDED from AndroidManifest.xml:145:19
+activity#org.linphone.setup.RemoteProvisioningActivity
+ADDED from AndroidManifest.xml:153:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:155:13
+	android:theme
+		ADDED from AndroidManifest.xml:154:13
+	android:name
+		ADDED from AndroidManifest.xml:153:19
+service#org.linphone.LinphoneService
+ADDED from AndroidManifest.xml:168:6
+	android:label
+		ADDED from AndroidManifest.xml:169:10
+	android:stopWithTask
+		ADDED from AndroidManifest.xml:170:10
+	android:name
+		ADDED from AndroidManifest.xml:168:15
+receiver#org.linphone.NetworkManager
+ADDED from AndroidManifest.xml:172:3
+	android:name
+		ADDED from AndroidManifest.xml:172:13
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:173:4
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from AndroidManifest.xml:173:19
+	android:name
+		ADDED from AndroidManifest.xml:173:27
+receiver#org.linphone.BluetoothManager
+ADDED from AndroidManifest.xml:176:6
+	android:enabled
+		ADDED from AndroidManifest.xml:176:61
+	android:name
+		ADDED from AndroidManifest.xml:176:16
+receiver#org.linphone.BootReceiver
+ADDED from AndroidManifest.xml:179:3
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:180:4
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:180:19
+	android:name
+		ADDED from AndroidManifest.xml:180:27
+receiver#org.linphone.PhoneStateChangedReceiver
+ADDED from AndroidManifest.xml:183:3
+	android:name
+		ADDED from AndroidManifest.xml:183:13
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from AndroidManifest.xml:184:4
+action#android.intent.action.PHONE_STATE
+ADDED from AndroidManifest.xml:184:19
+	android:name
+		ADDED from AndroidManifest.xml:184:27
+receiver#org.linphone.KeepAliveHandler
+ADDED from AndroidManifest.xml:187:3
+	android:name
+		ADDED from AndroidManifest.xml:187:13
+receiver#org.linphone.gcm.GCMReceiver
+ADDED from AndroidManifest.xml:191:3
+	android:permission
+		ADDED from AndroidManifest.xml:191:57
+	android:name
+		ADDED from AndroidManifest.xml:191:13
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+org.linphone
+ADDED from AndroidManifest.xml:192:5
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from AndroidManifest.xml:193:7
+	android:name
+		ADDED from AndroidManifest.xml:193:15
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from AndroidManifest.xml:194:7
+	android:name
+		ADDED from AndroidManifest.xml:194:15
+category#org.linphone
+ADDED from AndroidManifest.xml:195:7
+	android:name
+		ADDED from AndroidManifest.xml:195:17
+service#org.linphone.gcm.GCMService
+ADDED from AndroidManifest.xml:199:3
+	android:name
+		ADDED from AndroidManifest.xml:199:12
+activity#org.linphone.tutorials.TutorialLauncherActivity
+ADDED from AndroidManifest.xml:201:3
+	android:theme
+		ADDED from AndroidManifest.xml:202:7
+	android:name
+		ADDED from AndroidManifest.xml:201:13
+activity#org.linphone.tutorials.TutorialBuddyStatusActivity
+ADDED from AndroidManifest.xml:208:3
+	android:theme
+		ADDED from AndroidManifest.xml:209:7
+	android:name
+		ADDED from AndroidManifest.xml:208:13
+activity#org.linphone.tutorials.TutorialChatRoomActivity
+ADDED from AndroidManifest.xml:215:3
+	android:theme
+		ADDED from AndroidManifest.xml:216:7
+	android:name
+		ADDED from AndroidManifest.xml:215:13
+activity#org.linphone.tutorials.TutorialHelloWorldActivity
+ADDED from AndroidManifest.xml:222:3
+	android:theme
+		ADDED from AndroidManifest.xml:223:7
+	android:name
+		ADDED from AndroidManifest.xml:222:13
+activity#org.linphone.tutorials.TutorialRegistrationActivity
+ADDED from AndroidManifest.xml:229:3
+	android:theme
+		ADDED from AndroidManifest.xml:230:7
+	android:name
+		ADDED from AndroidManifest.xml:229:13

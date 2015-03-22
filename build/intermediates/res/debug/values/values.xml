@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string-array name="adaptive_rate_algorithm_entries">
+		<item>Simple</item>
+		<item>Stateful</item>
+	</string-array>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="limit_bitrate_entries">
+    <item>10 kbits/s</item>
+    <item>15 kbits/s</item>
+    <item>20 kbits/s</item>
+    <item>36 kbits/s</item>
+    <item>64 kbits/s</item>
+    <item>128 kbits/s</item>
+  </string-array>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string-array name="limit_bitrate_entry_values">
+		<item>10</item>
+		<item>15</item>
+		<item>20</item>
+		<item>36</item>
+		<item>64</item>
+		<item>128</item>
+	</string-array>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="tunnel_mode_entries">
+    <item>disabled</item>
+    <item>3G only</item>
+    <item>always</item>
+    <item>auto</item>
+  </string-array>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string-array name="tunnel_mode_entry_values">
+		<item>@string/tunnel_mode_entry_value_disabled</item>
+		<item>@string/tunnel_mode_entry_value_3G_only</item>
+		<item>@string/tunnel_mode_entry_value_always</item>
+		<item>@string/tunnel_mode_entry_value_auto</item>
+	</string-array>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr name="direction">
+        <enum name="rightToLeft" value="0"/>
+        <enum name="bottomToTop" value="1"/>
+        <enum name="leftToRight" value="2"/>
+        <enum name="topToBottom" value="3"/>
+    </attr>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/slidingtab_style.xml -->
+    <eat-comment/>
+    <attr name="orientation">
+        <!-- Defines an horizontal widget. -->
+        <enum name="horizontal" value="0"/>
+        <!-- Defines a vertical widget. -->
+        <enum name="vertical" value="1"/>
+    </attr>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <bool name="allow_cancel_remote_provisioning_login_activity">true</bool>
+    <bool name="allow_chat_multiline">false</bool>
+    <bool name="allow_edit_in_dialer">true</bool>
+    <bool name="allow_ringing_while_early_media">true</bool>
+    <bool name="allow_transfers">true</bool>
+    <bool name="auto_answer_calls">false</bool>
+    <bool name="automatically_start_intercepted_outgoing_gsm_call">true</bool>
+    <bool name="call_last_log_if_adress_is_empty">true</bool>
+    <bool name="disable_all_patented_codecs_for_markets">false</bool>
+    <bool name="disable_all_security_features_for_markets">false</bool>
+    <bool name="disable_animations">false</bool>
+    <bool name="disable_chat">false</bool>
+    <bool name="disable_chat__message_notification">false</bool>
+    <bool name="disable_chat_send_file">false</bool>
+    <bool name="disable_every_log">false</bool>
+    <bool name="disable_options_in_call">false</bool>
+    <bool name="display_about_in_settings">true</bool>
+    <bool name="display_account_wizard_at_first_start">true</bool>
+    <bool name="display_call_stats">true</bool>
+    <bool name="display_confirmation_popup_after_first_configuration">false</bool>
+    <bool name="display_messages_time_and_status">true</bool>
+    <bool name="display_sms_remote_provisioning_activity">false</bool>
+    <bool name="display_time_aside">false</bool>
+    <bool name="emoticons_in_messages">true</bool>
+    <bool name="enable_call_notification">true</bool>
+    <bool name="enable_linphone_friends">false</bool>
+    <bool name="enable_log_collect">false</bool>
+    <bool name="enable_push_id">true</bool>
+    <bool name="exit_button_on_dialer">false</bool>
+    <bool name="forbid_app_usage_until_remote_provisioning_completed">false</bool>
+    <bool name="forbid_empty_new_contact_in_editor">true</bool>
+    <bool name="forbid_self_call">false</bool>
+    <bool name="hash_images_as_name_before_upload">true</bool>
+    <bool name="hide_accounts">false</bool>
+    <bool name="hide_camera_settings">false</bool>
+    <bool name="hide_generic_accounts_wizard">false</bool>
+    <bool name="hide_linphone_accounts_wizard">false</bool>
+    <bool name="hide_phone_numbers_in_editor">false</bool>
+    <bool name="hide_remote_provisioning_in_wizard">false</bool>
+    <bool name="hide_sip_addresses_in_editor">false</bool>
+    <bool name="hide_wizard">false</bool>
+    <bool name="intercept_outgoing_gsm_calls">false</bool>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <bool name="isTablet">false</bool>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <bool name="lock_statusbar">false</bool>
+    <bool name="never_display_sip_addresses">false</bool>
+    <bool name="only_display_username_if_unknown">true</bool>
+    <bool name="override_domain_using_default_one">false</bool>
+    <bool name="pre_fill_email_in_wizard">true</bool>
+    <bool name="replace_chat_by_about">false</bool>
+    <bool name="replace_settings_by_about">false</bool>
+    <bool name="replace_wizard_with_old_interface">false</bool>
+    <bool name="setup_account_validation_mandatory">false</bool>
+    <bool name="setup_cancel_move_to_back">false</bool>
+    <bool name="setup_use_linphone_as_first_fragment">false</bool>
+    <bool name="show_current_calls_above_video">false</bool>
+    <bool name="show_statusbar_only_on_dialer">true</bool>
+    <bool name="show_tutorials_instead_of_app">false</bool>
+    <bool name="use_android_native_contact_edit_interface">false</bool>
+    <bool name="use_linphone_chat_storage">true</bool>
+    <bool name="use_linphone_server_ports">true</bool>
+    <bool name="use_linphonecore_ringing">false</bool>
+    <bool name="use_simple_history">true</bool>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/color.xml -->
+    <eat-comment/>
+    <color name="landscape_background">#CCCCCC</color>
+    <color name="main_app_color">#ffcf4c29</color>
+    <color name="missed_calls_background">#ffcf4c29</color>
+    <color name="numpad_background_bottom">#ffe4edf2</color>
+    <color name="numpad_background_dialer">#ffd8d8d8</color>
+    <color name="numpad_background_top">#ffb1bdc3</color>
+    <color name="text_button">#ff41484f</color>
+    <color name="text_button_disabled">#ffa6b3bf</color>
+    <color name="text_button_over">#ffcf4c29</color>
+    <color name="text_button_selected">#ff41484f</color>
+    <color name="text_contrast">#ff000000</color>
+    <color name="text_default">#ff5b656f</color>
+    <color name="text_disabled">#ffa6b3bf</color>
+    <color name="text_header">#ff7e8e9e</color>
+    <color name="text_over">#ffb9c4cb</color>
+    <color name="text_selected">#ffcf4c29</color>
+    <color name="text_switch">#ff41484f</color>
+    <color name="text_switch_selected">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="AvatarWithShadow"><attr format="reference" name="picture"/></declare-styleable>
+    <declare-styleable name="Numpad"><attr name="play_dtmf"><enum name="dont" value="0"/><enum name="play" value="1"/></attr></declare-styleable>
+    <declare-styleable name="SlidingDrawer"><attr format="reference" name="handle"/><attr format="reference" name="content"/><attr name="direction"/></declare-styleable>
+    <declare-styleable name="SlidingTab"><attr name="orientation"/></declare-styleable>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AddCallButtonText">Add call</string>
+    <string name="CancelButtonText">Cancel</string>
+    <string name="TransferCallButtonText">Transfer call</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="about_bugreport_email">linphone-android@belledonne-communications.com</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_bugreport_email_text">Describe problem here</string>
+    <string name="about_error_generating_bugreport_attachement">Error generating bug report</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="about_link">http://www.linphone.org\n\nInstructions\nhttp://www.linphone.org/m/help\n\n© 2011 Belledonne Communications</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_logs_not_found">Logs not found.</string>
+    <string name="about_mailer_chooser_text">Send bug report with…</string>
+    <string name="about_reading_logs">Reading logs, may takes time…</string>
+    <string name="about_report_issue">Report issue</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="about_text">Linphone %s SIP (rfc 3261) compatible phone under GNU Public License V2</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <string name="add_to_contacts">Add to contacts</string>
+    <string name="addressHint">Number or address</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="addressbook_label">Linphone</string>
+    <string name="app_name">VideoCallVoIP</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="at_least_a_protocol">At least one item is required</string>
+    <string name="bad_target_uri">Bad contact : %s</string>
+    <string name="bluetooth_button_txt">Bluetooth</string>
+    <string name="button_about">About</string>
+    <string name="button_add_call">Add call</string>
+    <string name="button_add_contact">New contact</string>
+    <string name="button_all_call">All</string>
+    <string name="button_all_contacts">All</string>
+    <string name="button_back">Back</string>
+    <string name="button_bluetooth">Bluetooth</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_chat">Chat</string>
+    <string name="button_contacts">Contacts</string>
+    <string name="button_delete_all">Delete</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_history">History</string>
+    <string name="button_micro">Micro</string>
+    <string name="button_missed_call">Missed</string>
+    <string name="button_new_chat">New conversation</string>
+    <string name="button_ok">Okay</string>
+    <string name="button_options">Options</string>
+    <string name="button_receiver">Receiver</string>
+    <string name="button_route">Route</string>
+    <string name="button_send_message">Send</string>
+    <string name="button_send_picture">Pic</string>
+    <string name="button_settings">Settings</string>
+    <string name="button_setup_back">Back</string>
+    <string name="button_setup_cancel">Cancel</string>
+    <string name="button_setup_next">Let\'s go</string>
+    <string name="button_sip_contacts">SIP</string>
+    <string name="button_speaker">Speaker</string>
+    <string name="button_transfer">Transfer</string>
+    <string name="button_video">Video</string>
+    <string name="call">Call</string>
+    <string name="call_error">Cannot call %s</string>
+    <string name="call_state_incoming">Incoming</string>
+    <string name="call_state_missed">Missed</string>
+    <string name="call_state_outgoing">Outgoing</string>
+    <string name="call_stats_audio">Audio</string>
+    <string name="call_stats_codec">Codec:</string>
+    <string name="call_stats_download">Download bandwidth:</string>
+    <string name="call_stats_ice">ICE connectivity:</string>
+    <string name="call_stats_upload">Upload bandwidth:</string>
+    <string name="call_stats_video">Video</string>
+    <string name="call_stats_video_resolution">Video size:</string>
+    <string name="call_update_desc">Your correspondent would like to add video to the current call.</string>
+    <string name="call_update_no">Decline</string>
+    <string name="call_update_title">Call update requested</string>
+    <string name="call_update_yes">Accept</string>
+    <string name="cannot_resume_paused_by_remote_call">Cannot resume call paused by remote</string>
+    <string name="chat">Chat</string>
+    <string name="click_to_show_first_login_view">Start</string>
+    <string name="close_button_text">Close</string>
+    <string name="communication_encrypted">Encrypted</string>
+    <string name="conf_admin_choice_enter">Enter conference</string>
+    <string name="conf_admin_choice_leave">Momentarily leave conference</string>
+    <string name="conf_admin_choice_terminate">Terminate conference</string>
+    <string name="conf_conference">Conference</string>
+    <string name="conf_show_details_text">Show details</string>
+    <string name="conf_simple_merge_bt_txt">Merge</string>
+    <string name="conf_simple_transfer_bt_txt">Transfer</string>
+    <string name="conf_simple_video_bt_txt">video</string>
+    <string name="conference">Conference</string>
+    <string name="config_error">%s, do you want to go to the settings page ?</string>
+    <string name="cont">Continue</string>
+    <string name="contact_first_name">First name</string>
+    <string name="contact_last_name">Last name</string>
+    <string name="content_description_about">About page</string>
+    <string name="content_description_add">Add button</string>
+    <string name="content_description_add_call">Add call</string>
+    <string name="content_description_add_contact">Add to contacts</string>
+    <string name="content_description_all_calls">All calls</string>
+    <string name="content_description_all_contacts">All contacts</string>
+    <string name="content_description_back">Back button</string>
+    <string name="content_description_backspace">Backspace</string>
+    <string name="content_description_call">Call</string>
+    <string name="content_description_call_direction">Call direction</string>
+    <string name="content_description_call_quality">Call quality</string>
+    <string name="content_description_cancel">Cancel</string>
+    <string name="content_description_cancel_button">Cancel button</string>
+    <string name="content_description_chat">Chat</string>
+    <string name="content_description_chat_button">Chat button</string>
+    <string name="content_description_conference">Conference</string>
+    <string name="content_description_contact_picture">Contact picture</string>
+    <string name="content_description_contacts">Contacts button</string>
+    <string name="content_description_delete">Delete button</string>
+    <string name="content_description_detail">Detail</string>
+    <string name="content_description_dial_back">Dial back</string>
+    <string name="content_description_dialer">Dialer</string>
+    <string name="content_description_edit">Edit button</string>
+    <string name="content_description_encryption">Encryption</string>
+    <string name="content_description_hang_up">Hang up</string>
+    <string name="content_description_history">History button</string>
+    <string name="content_description_led"/>
+    <string name="content_description_linphone_contacts">Linphone contacts</string>
+    <string name="content_description_mark"/>
+    <string name="content_description_message_status">Message status</string>
+    <string name="content_description_missed_calls">Missed calls</string>
+    <string name="content_description_new_contact">New contact</string>
+    <string name="content_description_new_discussion">New discussion</string>
+    <string name="content_description_next">Next button</string>
+    <string name="content_description_numpad">Numpad</string>
+    <string name="content_description_pause">Pause</string>
+    <string name="content_description_search">Search</string>
+    <string name="content_description_send_message">Send message</string>
+    <string name="content_description_settings">Settings button</string>
+    <string name="content_description_setup_ok">Ok</string>
+    <string name="content_description_switch_camera">Switch camera</string>
+    <string name="content_description_switch_video">Switch video</string>
+    <string name="content_description_toggle_micro">Toggle micro</string>
+    <string name="content_description_toggle_speaker">Toggle speaker</string>
+    <string name="content_description_validate">Validate button</string>
+    <string name="content_description_welcome">Welcome to the account setup assistant</string>
+    <string name="copy_text">Copy text</string>
+    <string name="couldnt_accept_call">An error occurred while accepting call</string>
+    <string name="decline">Decline</string>
+    <string name="default_account_flag">Default account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="default_domain">sip.linphone.org</string>
+    <string name="default_stun">stun.linphone.org</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="delete">Delete</string>
+    <string name="delete_contact">Delete</string>
+    <string name="dialer_null_on_new_intent">Application not ready</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="download_image">Download</string>
+    <string name="download_image_failed">Download failed. Please check your internet access or try again later.</string>
+    <string name="draft">Draft</string>
+    <string name="ec_calibrated">Calibrated [%s ms]</string>
+    <string name="ec_calibrating">Calibrating…</string>
+    <string name="ec_calibration_launch_message">Starting echo cancelation audio calibration </string>
+    <string name="error">Error</string>
+    <string name="error_adding_new_call">Error adding new call</string>
+    <string name="error_call_declined">Call declined</string>
+    <string name="error_cannot_create_default_parameters">Cannot create default call parameters</string>
+    <string name="error_cannot_get_call_parameters">Cannot get call parameters</string>
+    <string name="error_cannot_invite_address">Cannot invite destination address [%s]</string>
+    <string name="error_incompatible_media">Incompatible media parameters</string>
+    <string name="error_low_bandwidth">Your correspondent has low bandwidth, video can\'t be started</string>
+    <string name="error_network_unreachable">Network is unreachable</string>
+    <string name="error_user_not_found">User not found</string>
+    <string name="error_while_accepting_pending_call">Error while accepting pending call</string>
+    <string name="failed">failed</string>
+    <string name="filter_contacts">Filter contacts</string>
+    <string name="first_launch_bad_login_password">Couldn\'t connect; check your login and password and start again</string>
+    <string name="first_launch_no_login_password">Please enter your login and password</string>
+    <string name="first_launch_ok">Registration successful</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="first_launch_suceeded_once_key">first_launch_suceeded_once_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="first_login_connect">Connect</string>
+    <string name="first_login_explanation">Enter your username and password to connect to the service.</string>
+    <string name="first_login_password">Password</string>
+    <string name="first_login_username">Username</string>
+    <string name="hangup">Hang up</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="history_date_format">d MMM</string>
+    <string name="history_detail_date_format">EEEE MMM d HH:mm</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="image_not_saved">Error, image not saved</string>
+    <string name="image_picker_title">Select source</string>
+    <string name="image_saved">Image saved</string>
+    <string name="importing_messages">Updating messages database</string>
+    <string name="in_conf">You are part of it</string>
+    <string name="in_conf_leave">Go out</string>
+    <string name="incall_notif_active">Audio call ongoing</string>
+    <string name="incall_notif_paused">Paused call ongoing</string>
+    <string name="incall_notif_video">Video capturing call ongoing</string>
+    <string name="incoming">Incoming call</string>
+    <string name="incoming_call_dialog_title">%s is calling you</string>
+    <string name="linphone_friend_new_request_desc">wants to share it\'s presence status with you and be aware of yours.</string>
+    <string name="linphone_friend_new_request_title">Friend request</string>
+    <string name="media_encryption_none">None</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="media_encryption_srtp">SRTP</string>
+    <string name="media_encryption_zrtp">ZRTP</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="menu_about">About</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="menu_about_key">menu_about_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="menu_clear_history">Clear</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_reset_log">Reset log</string>
+    <string name="menu_send_log">Send log</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_videocall_back_to_dialer_title">Display dialer</string>
+    <string name="menu_videocall_change_resolution_title">Change resolution</string>
+    <string name="menu_videocall_change_resolution_when_high_resolution">Low resolution</string>
+    <string name="menu_videocall_change_resolution_when_low_resolution">Try High resolution</string>
+    <string name="menu_videocall_switch_camera_title">Front/Rear Camera</string>
+    <string name="menu_videocall_terminate_call_title">Terminate call</string>
+    <string name="menu_videocall_toggle_camera_disable">Disable camera</string>
+    <string name="menu_videocall_toggle_camera_enable">Enable camera</string>
+    <string name="menu_videocall_toggle_camera_title">Mute/Unmute camera</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="messages_date_format">HH:mm d MMM</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="mutemic_button_txt">Mute</string>
+    <string name="never_remind">Never remind me</string>
+    <string name="new_fast_chat">Enter a SIP address to chat with…</string>
+    <string name="no">No</string>
+    <string name="no_call_history">No call in your history.</string>
+    <string name="no_chat_history">No chat history.</string>
+    <string name="no_contact">No contact in your address book.</string>
+    <string name="no_echo">No echo</string>
+    <string name="no_missed_call_history">No missed call in your history.</string>
+    <string name="no_phone_numbers">No phone numbers found for %s</string>
+    <string name="no_sip_contact">No SIP contact in your address book.</string>
+    <string name="not_ready_to_make_new_call">Not ready for a new call</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="notification_register_failure">Fails to register to %s</string>
+    <string name="notification_registered">Registered to %s </string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="notification_started">started</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="notification_title">Linphone</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="out_conf">You are out of it</string>
+    <string name="out_conf_enter">Go in</string>
+    <string name="phone_number">Phone number</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="picture_name_format">linphone-mms-%s.jpg</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="place_call_chooser">Place a call</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_activated_key">pref_activated_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_adaptive_rate_algorithm">Adaptive rate algorithm</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_adaptive_rate_algorithm_key">pref_adaptive_rate_algorithm</string>
+    <string name="pref_adaptive_rate_algorithm_simple_key">pref_adaptive_rate_algorithm_simple_key</string>
+    <string name="pref_adaptive_rate_algorithm_stateful_key">pref_adaptive_rate_algorithm_stateful_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_adaptive_rate_control">Adaptive rate control</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_adaptive_rate_control_key">pref_adaptive_rate_control_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_add_account">Add account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_add_account_key">pref_add_account_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_advanced">Advanced</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_advanced_key">pref_advanced_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_amr_summary">AMR codec might not be present on your phone</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_animation_enable_key">pref_animation_enable_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_animation_enable_title">Enable Animations</string>
+    <string name="pref_audio">Audio</string>
+    <string name="pref_audio_hacks_title">Audio hacks</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_hacks_use_galaxys_hack_key">pref_audio_hacks_use_galaxys_hack_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_hacks_use_galaxys_hack_title">Use Galaxy S audio hack</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_hacks_use_routing_api_key">pref_audio_hacks_use_routing_api_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_hacks_use_routing_api_title">Use routing API hack</string>
+    <string name="pref_audio_port_description">Audio port or port range (minport-maxport)</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_port_key">pref_audio_port_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_port_title">Audio port or port range</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_ringtone">pref_audio_ringtone</string>
+    <string name="pref_audio_soft_volume_key">pref_audio_soft_volume_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_soft_volume_title">Use software volume</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_use_specific_mode_key">pref_audio_use_specific_mode_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_audio_use_specific_mode_summary">0=MODE_NORMAL (default), 2=MODE_IN_CALL</string>
+    <string name="pref_audio_use_specific_mode_title">Use specific mode hack</string>
+    <string name="pref_auth_userid">Auth userid</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_auth_userid_key">pref_auth_userid_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_auto_accept_friends_desc">utomatically accept new friend requests</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_auto_accept_friends_key">pref_auto_accept_friends_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_auto_accept_friends_title">New friends</string>
+    <string name="pref_autostart">Start at boot time</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_autostart_key">pref_autostart_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_avpf">AVPF</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_avpf_key">pref_avpf_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_avpf_rr_interval"> AVPF regular RTCP interval in seconds (between 1 and 5)</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_avpf_rr_interval_key">pref_avpf_rr_interval_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_background_mode">Background mode</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_background_mode_key">pref_background_mode_key</string>
+    <string name="pref_codec_amr">amr</string>
+    <string name="pref_codec_amr_key">pref_codec_amr_key</string>
+    <string name="pref_codec_amrwb">amr-wb</string>
+    <string name="pref_codec_amrwb_key">pref_codec_amrwb_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_codec_bitrate_limit">Codec bitrate limit</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_codec_bitrate_limit_key">pref_codec_bitrate_limit_key</string>
+    <string name="pref_codec_g722">g722</string>
+    <string name="pref_codec_g722_key">pref_codec_g722_key</string>
+    <string name="pref_codec_g729">g729</string>
+    <string name="pref_codec_g729_key">pref_codec_g729_key</string>
+    <string name="pref_codec_gsm">gsm</string>
+    <string name="pref_codec_gsm_key">pref_codec_gsm_key</string>
+    <string name="pref_codec_ilbc">ilbc</string>
+    <string name="pref_codec_ilbc_key">pref_codec_ilbc_key</string>
+    <string name="pref_codec_opus">opus 48Khz</string>
+    <string name="pref_codec_opus_key">pref_codec_opus_key</string>
+    <string name="pref_codec_pcma">pcma</string>
+    <string name="pref_codec_pcma_key">pref_codec_pcma_key</string>
+    <string name="pref_codec_pcmu">pcmu</string>
+    <string name="pref_codec_pcmu_key">pref_codec_pcmu_key</string>
+    <string name="pref_codec_silk12">silk 12 Khz</string>
+    <string name="pref_codec_silk12_key">pref_codec_silk12_key</string>
+    <string name="pref_codec_silk16">silk 16 Khz</string>
+    <string name="pref_codec_silk16_key">pref_codec_silk16_key</string>
+    <string name="pref_codec_silk24">silk 24 Khz</string>
+    <string name="pref_codec_silk24_key">pref_codec_silk24_key</string>
+    <string name="pref_codec_silk8">silk 8 Khz</string>
+    <string name="pref_codec_silk8_key">pref_codec_silk8_key</string>
+    <string name="pref_codec_speex16">speex 16 Khz</string>
+    <string name="pref_codec_speex16_key">pref_codec_speex16_key</string>
+    <string name="pref_codec_speex32_key">pref_codec_speex32_key</string>
+    <string name="pref_codec_speex8">speex 8 Khz</string>
+    <string name="pref_codec_speex8_key">pref_codec_speex8_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_codecs">Codecs</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_codecs_key">pref_codecs_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_communication_expire_title">Communication timeout</string>
+    <string name="pref_debug">Debug</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_debug_key">pref_debug_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_default_account">Use as default</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_default_account_key">pref_default_account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_delete_account">Delete this account</string>
+    <string name="pref_disable_account">Disable</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_disable_account_key">pref_disable_account_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_display_name">Display name</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_display_name_key">pref_display_name_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_display_name_title">Display name</string>
+    <string name="pref_domain">Domain*</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_domain_key">pref_domain_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_echo_cancellation">Echo cancellation</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_echo_cancellation_key">pref_echo_cancellation_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_echo_cancellation_summary">Removes the echo heard by other end</string>
+    <string name="pref_echo_canceller_calibration">Echo canceller calibration</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_echo_canceller_calibration_key">pref_echo_canceller_calibration_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_enable_outbound_proxy">Outbound proxy</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_enable_outbound_proxy_key">Outbound proxy</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_escape_plus">Replace + by 00</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_escape_plus_key">pref_escape_plus_key</string>
+    <string name="pref_expire_key">pref_expire_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_expire_title">Expire</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_extra_accounts">pref_nb_accounts_extra</string>
+    <string name="pref_first_time_linphone_chat_storage">pref_first_time_linphone_chat_storage</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_help_auth_userid">Enter authentication userid (optionnal)</string>
+    <string name="pref_help_display_name">Enter display name (optionnal)</string>
+    <string name="pref_help_domain">sip.example.org if your account is john@sip.example.org</string>
+    <string name="pref_help_outbound_proxy">Route all calls through SIP proxy</string>
+    <string name="pref_help_password">You have to re-enter your password if you edit your username and/or the domain</string>
+    <string name="pref_help_proxy">SIP proxy hostname or ip address (optional)</string>
+    <string name="pref_help_username">Example: john if your account is john@sip.example.org</string>
+    <string name="pref_ice_enable">Enable ICE</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_ice_enable_key">pref_ice_enable_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_ice_enable_summary">A STUN server must be configured to use ICE</string>
+    <string name="pref_ilbc_summary">iLBC might be unavailable depending on ARM processor and Android OS version.</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_image_sharing_server_key">pref_image_sharing_server_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_image_sharing_server_title">Sharing server</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_incoming_call_timeout_key">pref_incoming_expire_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_incoming_call_timeout_title">Incoming call timeout (in seconds)</string>
+    <string name="pref_incoming_expire_title">Incoming call timeout</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_ipv6_key">pref_ipv6_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_ipv6_title">Use ipv6 instead of ipv4</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_linphone_friend_key">pref_linphone_friend_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_linphone_friend_title">Friends</string>
+    <string name="pref_manage">Manage</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_manage_key">pref_manage_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_media_encryption">Media encryption</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_media_encryption_key">pref_media_encryption_key</string>
+    <string name="pref_media_encryption_key_none">none</string>
+    <string name="pref_media_encryption_key_srtp">srtp</string>
+    <string name="pref_media_encryption_key_zrtp">zrtp</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_network_title">Network</string>
+    <string name="pref_passwd">Password*</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_passwd_key">pref_passwd_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_preferences">Preferences</string>
+    <string name="pref_preferred_video_size">Preferred video size</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_preferred_video_size_key">pref_preferred_video_size_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_prefix">Prefix</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_prefix_key">pref_prefix_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_primary_account_title">Primary account</string>
+    <string name="pref_proxy">Proxy</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_proxy_key">pref_proxy_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_push_notification">Enable push notifications</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_push_notification_key">pref_push_notification_key</string>
+    <string name="pref_remote_provisioning_key">pref_remote_provisioning_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_remote_provisioning_title">Remote provisioning</string>
+    <string name="pref_rfc2833_dtmf">Send RFC2833 DTMFs</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_rfc2833_dtmf_key">pref_rfc2833_dtmf_key</string>
+    <string name="pref_sip_port_key">pref_sip_port_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_sip_port_title">SIP port to use</string>
+    <string name="pref_sipaccount">SIP Account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_sipaccount_key">pref_sipaccount_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_sipaccounts">SIP Accounts</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_sipaccounts_key">pref_sipaccounts_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_sipinfo_dtmf">Send SIP INFO DTMFs</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_sipinfo_dtmf_key">pref_sipinfo_dtmf_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_stun_server">Stun server</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_stun_server_key">pref_stun_server_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport">Transport</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_key">pref_transport_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_tcp">TCP</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_tcp_key">pref_transport_tcp_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_tls">TLS</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_tls_key">pref_transport_tls_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_udp">UDP</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_udp_key">pref_transport_udp_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_use_random_ports">Use random ports</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_transport_use_random_ports_key">pref_transport_use_random_ports_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel">Tunnel</string>
+    <string name="pref_tunnel_host">Hostname</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel_host_key">pref_tunnel_host_key</string>
+    <string name="pref_tunnel_key">pref_tunnel_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel_mode">Mode</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel_mode_key">pref_tunnel_mode_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel_port">Port</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_tunnel_port_key">pref_tunnel_port_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_upnp_enable">Enable UPNP</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_upnp_enable_key">pref_upnp_enable_key</string>
+    <string name="pref_user_name_key">pref_user_name_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_user_name_title">Username</string>
+    <string name="pref_username">Username*</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_username_key">pref_username_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video">Video</string>
+    <string name="pref_video_automatically_accept_video">Always accept video requests</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_automatically_accept_video_key">pref_video_automatically_accept_video_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_automatically_accept_video_title">Accept incoming video requests</string>
+    <string name="pref_video_automatically_share_my_video">Automatically send my camera</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_automatically_share_my_video_key">pref_video_automatically_share_my_video_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_automatically_share_my_video_title">Share my camera</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codec_h263_key">pref_video_codec_h263_key</string>
+    <string name="pref_video_codec_h263_title">H263</string>
+    <string name="pref_video_codec_h264_key">pref_video_codec_h264_key</string>
+    <string name="pref_video_codec_h264_title">H264</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codec_h264_unavailable">Codec disabled, build the app from source code to enable it</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codec_mpeg4_key">pref_video_codec_mpeg4_key</string>
+    <string name="pref_video_codec_mpeg4_title">MP4V-ES</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codec_mpeg4_unavailable">Codec disabled, build the app from source code to enable it</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codec_vp8_key">pref_video_codec_vp8_key</string>
+    <string name="pref_video_codec_vp8_title">VP8</string>
+    <string name="pref_video_codecs_key">pref_video_codecs_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_codecs_title">Codecs</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_enable_key">pref_video_enable_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_enable_title">Enable Video</string>
+    <string name="pref_video_initiate_call_with_video">Always send video requests</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_initiate_call_with_video_key">pref_video_initiate_call_with_video_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_initiate_call_with_video_title">Initiate video calls</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_key">pref_video_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_port_description">Video port or port range (minport-maxport)</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_port_key">pref_video_port_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_port_title">Video port or port range</string>
+    <string name="pref_video_settings_title">Video settings</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_use_front_camera_key">pref_video_use_front_camera_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_video_use_front_camera_title">Use front camera</string>
+    <string name="pref_voice_mail">Voice mail uri</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_voice_mail_key">pref_voice_mail_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="pref_wifi_only">Use wifi only</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="pref_wifi_only_key">pref_wifi_only_key</string>
+    <string name="pref_wizard_key">pref_wizard_key</string>
+    <string name="push_reg_id_key">push_reg_id_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="push_sender_id">622464153529</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="push_sender_id_key">push_sender_id_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="remote_composing">Remote is writing...</string>
+    <string name="remote_provisioning_again_message">Do you want to change the provisioning URI ?</string>
+    <string name="remote_provisioning_again_title">Remote provisioning</string>
+    <string name="remote_provisioning_failure">Failed to download or apply remote provisioning profile...</string>
+    <string name="reset_sas_fmt">Reset verified %s</string>
+    <string name="resume_dialog_title">Resume call</string>
+    <string name="retry">Retry</string>
+    <string name="save_picture">Save picture</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="service_name">VideoCallVoIP Service</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="setup_account_not_validated">Your account has not been validated yet.</string>
+    <string name="setup_account_validated">Your account has been validated.</string>
+    <string name="setup_apply">Apply</string>
+    <string name="setup_check_account_validation">Check</string>
+    <string name="setup_confirm_username">Your username will be %s (uppercase characters are not allowed). Do you accept ?</string>
+    <string name="setup_create">Create Account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="setup_create_account">Create an account on linphone.org</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="setup_domain_hint">domain</string>
+    <string name="setup_ec_calibration">Echo canceller calibration in progress</string>
+    <string name="setup_email_hint">email</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="setup_forced_proxy"/>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="setup_general_account_hint">Enter your SIP account username, password and domain</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="setup_key">setup_key</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="setup_linphone_account_hint">Enter your linphone.org username and password</string>
+    <string name="setup_login_generic">I already have a SIP account</string>
+    <string name="setup_login_linphone">I already have a linphone.org account</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="setup_password_confirm_hint">confirm password</string>
+    <string name="setup_password_hint">password</string>
+    <string name="setup_remote_provisioning">Download provisioning</string>
+    <string name="setup_remote_provisioning_hint">This assistant will download an existing configuration.</string>
+    <string name="setup_remote_provisioning_login_hint">The configuration you downloaded doesn\'t include your account. Please fill it in.</string>
+    <string name="setup_remote_provisioning_url_hint">provisioning url</string>
+    <string name="setup_title">Account Setup Assistant</string>
+    <string name="setup_title_assistant">Account setup assistant</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="setup_username_hint">username</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="setup_validate_account">An email has been sent to the address you gave. In order to activate your account, you need to click on the link inside it. Once it is done, come back here and click on the button above.</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="setup_welcome">This assistant will help you to use a SIP account for your calls.</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="share_picture_size_large">Large</string>
+    <string name="share_picture_size_medium">Medium</string>
+    <string name="share_picture_size_real">Real size</string>
+    <string name="share_picture_size_small">Small</string>
+    <string name="show_image">Show</string>
+    <string name="show_send_dtmfs_button">Dialpad</string>
+    <string name="sip_address">SIP address</string>
+    <string name="skipable_error_service_not_ready">Warning: service is not ready</string>
+    <string name="speaker_button_txt">Speaker</string>
+    <string name="state_incoming_received">incoming</string>
+    <string name="state_outgoing_progress">calling</string>
+    <string name="state_outgoing_ringing">ringing</string>
+    <string name="state_paused">paused</string>
+    <string name="state_paused_by_remote">paused by remote</string>
+    <string name="state_streams_running"/>
+    <string name="status_active_call">active</string>
+    <string name="status_conf_call">conf</string>
+    <string name="status_connected">Registered</string>
+    <string name="status_error">Registration failed</string>
+    <string name="status_in_progress">Registration in progress</string>
+    <string name="status_not_connected">Not Registered</string>
+    <string name="tab_contact">Contact</string>
+    <string name="tab_dialer">Dialer</string>
+    <string name="tab_history">History</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="temp_photo_name">linphone-android-photo-temp.jpg</string>
+    <string name="temp_photo_name_with_date">linphone-android-photo-%s.jpg</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="text_copied_to_clipboard">Text copied to clipboard</string>
+    <string name="title_numbers_dialog">%s\'s phone numbers</string>
+    <string name="today">Today</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="today_date_format">HH:mm</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="transfer_dialog_title">Transfer call to</string>
+    <string name="transfer_started">Transfer initiated</string>
+    <string name="transfer_to_new_call">New call</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="tunnel_host"/>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_strings.xml -->
+    <eat-comment/>
+    <string name="tunnel_mode_entry_value_3G_only">3G_only</string>
+    <string name="tunnel_mode_entry_value_always">always</string>
+    <string name="tunnel_mode_entry_value_auto">auto</string>
+    <string name="tunnel_mode_entry_value_disabled">disabled</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="unknown_incoming_call_name">Unknown</string>
+    <string name="unread_messages">%i unread messages</string>
+    <string name="uploading_image">Uploading…</string>
+    <string name="verify_sas_fmt">Verify %s</string>
+    <string name="voicemail_unread"> unread messages</string>
+    <string name="wait">Please wait...</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/custom.xml -->
+    <eat-comment/>
+    <string name="wait_dialog_text">Starting up</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="waiting_for_startup">Starting up…</string>
+    <string name="warning_already_incall">Cannot initiate a new call because a call is already engaged</string>
+    <string name="warning_wrong_destination_address">Cannot build destination address from [%s]</string>
+    <string name="wizard_email_incorrect">Your email is not valid.</string>
+    <string name="wizard_failed">An error occurred, try again later.</string>
+    <string name="wizard_password_incorrect">Your password is not valid (6 characters min).</string>
+    <string name="wizard_passwords_unmatched">Passwords entered are different.</string>
+    <string name="wizard_server_unavailable">Server unreachable, verify your internet connection.</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/non_localizable_custom.xml -->
+    <eat-comment/>
+    <string name="wizard_url">https://www.linphone.org/wizard.php</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="wizard_username_incorrect">Your username is not valid.</string>
+    <string name="wizard_username_unavailable">This username is already in use.</string>
+    <string name="wrong_domain">Wrong domain</string>
+    <string name="wrong_passwd">wrong password</string>
+    <string name="wrong_settings">Wrong settings</string>
+    <string name="wrong_username">wrong user name</string>
+    <string name="yes">Yes</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="zrtp_accept">Accept</string>
+    <string name="zrtp_deny">Deny</string>
+    <string name="zrtp_help">You should only accept if you have the same code (see above) as your correspondent</string>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="Default" parent="android:Theme"/>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/digit_style.xml -->
+    <eat-comment/>
+    <style name="DialerDigit" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="FullScreen" parent="android:Theme.NoTitleBar.Fullscreen"/>
+    <style name="NoTitle" parent="android:Theme.NoTitleBar"/>
+    <!-- From: file:/C:/Users/Aaron/Documents/Develop/Android/VideoCallVoIP/res/values/slidingtab_style.xml -->
+    <eat-comment/>
+    <style name="TextAppearance.SlidingTabActive" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="TextAppearance.SlidingTabNormal" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">?android:attr/textColorTertiary</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">5.0</item>
+    </style>
+</resources>
